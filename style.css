@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    background: #DDDCD1;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.head2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 66px;
+    background: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #F66152;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headerInicio {
+    height: 100vh !important;
+    background: linear-gradient(to right, hsla(180, 21%, 12%, 0.395), hsla(180, 47%, 6%, 0.354)),url(img/headerInicio.png) no-repeat center;
+    background-size: cover;
+}
+
+.headerInicio h1{
+    font-size: 45px ;
+    color:azure;
+    height: 200px;
+}
+
+.headerInicio h4{
+    font-size: 25px ;
+    color:rgba(214, 210, 210, 0.58);
+    font-weight: 300;
+    height: 100px;
+}
+
+.headerServicio {
+    height: 100vh !important;
+    background: url(img/headerAparcamientos.png) no-repeat center;
+    background-size: cover;
+}
+
+.headerNosotros {
+    height: 80vh !important;
+    background: url(img/headerNosotros.png) no-repeat center;
+    background-size: cover;
+}
+
+.headerContactanos {
+    height: 100vh !important;
+    background: linear-gradient(to right, hsla(180, 21%, 12%, 0.395), hsla(180, 47%, 6%, 0.354)),url(img/headerContactanos.png) no-repeat center;
+    background-size: cover;
+}
+
+.headerContactanos h1{
+    height: 200px;
+}
+
+.headerContactanos h3{
+    font-size: 25px ;
+    color:white;
+    height: 50px;
+}
+
+.title {
+    margin-top: 80px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    opacity: 60%;
+    padding: 20px 40px;
+}
+
+.title2 {
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+
+}
+.p2 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 50px 200px;
+    background-color: black;
+    opacity: 60%;
+}
+.p3 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #000;
+    padding: 20px 200px;
+    background-color: White;
+}
+.p4 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #000;
+    padding: 20px 200px;
+    background-color: #D38585;
+}
+.p5 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #000;
+    padding: 20px 200px;
+    background-color: #F9D16B;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #2B55EB;
+    color: #fff;
+    text-decoration: none;
+    background: #2B55EB;
+}
+
+.buscar{
+
+    padding: 50px;
+}
+
+.buscar input{
+    width: 0;
+    top: 0;
+    right: 0;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.buscar:hover input{
+    width:240px;
+}
+
+.buscar input:focus{
+    width:240px;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #464541
+}
+
+.sau2 {
+    padding: 350px;
+    background: #464541
+}
+
+.Acerca {
+    padding: 280px 300px;
+    background: #464541;
+    height: 0;
+}
+
+.about {
+    background: #919191;
+    text-align: center;
+}
+
+.aboutContactanos{
+    background: #919191;
+    text-align: center;
+    padding: 60px 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+    font-size: 42px;
+}
+
+footer ul li{
+    margin: 0 8px;
+}
+
+footer ul li:first-child {
+    margin-left: 0;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+@media (max-width: 1362px)
+{
+    .title, .title2 {font-size: 50px; margin-top: 160px}
+    .p2, .p3, .p4, .p5 {font-size: 15px}
+}
+
+@media (max-width: 1000px){
+    .headerInicio h1{font-size: 30px}
+    .headerInicio h4{font-size: 18px}
+    .title {font-size: 30px; margin-top: 160px}
+    .title2 {font-size: 30px; margin-top: 160px}
+    .p2, .p3, .p4, .p5 {font-size: 9px}
+    .sau2 img{width: 500px}
+    .headerContactanos h1 {font-size:30px}
+    .headerContactanos h3 {font-size:15px}
+}
